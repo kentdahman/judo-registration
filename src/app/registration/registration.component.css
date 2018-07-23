@@ -1,0 +1,8 @@
+.information-form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .information-form-container > * {
+    width: 100%;
+  }
