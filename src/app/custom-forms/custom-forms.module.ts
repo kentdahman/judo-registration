@@ -41,17 +41,12 @@ import {
     MatTreeModule
 } from '@angular/material';
 
-import {CdkTableModule} from '@angular/cdk/table';
-import {CdkTreeModule} from '@angular/cdk/tree';
-
 @NgModule({
   declarations: [],
   imports: [
     FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
-    CdkTableModule,
-    CdkTreeModule,
     MatAutocompleteModule,
     MatBadgeModule,
     MatBottomSheetModule,
@@ -90,8 +85,6 @@ import {CdkTreeModule} from '@angular/cdk/tree';
   ],
   exports: [
     FormsModule,
-    CdkTableModule,
-    CdkTreeModule,
     MatAutocompleteModule,
     MatBadgeModule,
     MatBottomSheetModule,

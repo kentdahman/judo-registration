@@ -4,13 +4,11 @@ import { AppComponent } from './app.component';
 import { CustomFormsModule } from './custom-forms/custom-forms.module';
 import { RegistrationComponent } from './registration/registration.component';
 import { platformBrowserDynamic } from '../../node_modules/@angular/platform-browser-dynamic';
-import { ErrorMatcherComponent } from './error-matcher/error-matcher.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegistrationComponent,
-    ErrorMatcherComponent
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
